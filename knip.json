@@ -1,0 +1,23 @@
+{
+  "$schema": "https://unpkg.com/knip@5/schema.json",
+  "ignoreExportsUsedInFile": true,
+  "ignore": [
+    "src/hooks/**/*",
+    "src/lib/**/*",
+    "ecosystem.config.js",
+    "i18next-scanner.mjs",
+    "postcss.config.mjs"
+  ],
+  "ignoreDependencies": [
+    "@?eslint*",
+    "@commitlint/*",
+    "@tailwindcss/postcss",
+    "clsx",
+    "lint-staged",
+    "lucide-react",
+    "prettier-plugin-tailwindcss",
+    "tailwindcss",
+    "tailwind-merge",
+    "tw-animate-css"
+  ]
+}
